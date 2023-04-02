@@ -1,0 +1,793 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Fashionista 1</title>
+    <style>
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+body {
+  font-size: 20px;
+}
+h1 {
+  font-size: 70px;
+  text-align: center;
+}
+h2{
+    font-size: 50px;
+  text-align: center;
+}
+h5{
+    font-size: 35px;
+}
+h3{
+  font-size: 40px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <a href="#HOME">HOME</a>
+        <a href="#CONTACT">CONTACT</a>
+        <a href="#ABOUT">ABOUT</a>
+        <a href="#LOG IN">LOG IN</a>
+      </div>
+      <script>
+        window.onscroll = function() {scrollFunction()};
+       
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+        }
+        </script>
+        <h1>FASHIONISTA</h1>
+        <div class="clearfix">
+            <div class="img-container">
+            <a href="cloth3.html"> <img src="https://cdn.mos.cms.futurecdn.net/AfEmSN8RK8pYyWsVW87GJf.jpg"class="w3-hover-opacity" alt="women" style="width:60%">
+            <p>WOMEN</p>
+            </div>
+            <div class="img-container">
+            <a href="cloth2.html"><img src="https://rukminim1.flixcart.com/image/850/850/xif0q/shopsy-shirt/f/d/n/l-shopsy-527-tigersnake-original-imag9vbz4mrrhfjg.jpeg?q=90" class="w3-hover-opacity" alt="shop new" style="width:90%">
+            <p>SHOP NEW</p>
+            </div>
+            <div class="img-container">
+            <a href="cloth4.html"><img src="https://images.bewakoof.com/uploads/grid/app/casual-outfits-for-men-bewakoof-blog-12-1615892382.jpg" class="w3-hover-opacity" alt="men" style="width:70%">
+            <p>MEN</p>
+            </div>
+          </div>
+          <h2><a href="cloth2.html">NEW DROPS</a></h2>
+          <h5><a href="cloth3.html">WOMEN:</a></h5>
+          <div class="clearfix">
+            <div class="img-container">
+            <img src="https://cdn.shopify.com/s/files/1/1632/6249/products/G14HN_BLBEET_2b8627e9-2f52-410e-a864-6d24741ac7ca.jpg?v=1561460510" alt="top" style="width:65%">
+            <p>Casual top- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://i5.walmartimages.com/asr/06d2c02d-f226-4d40-ac89-32af053124f5.f6e069e505f71d5979856c7c89006849.jpeg" alt="top" style="width:80%">
+            <p>Casual top- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://tiimg.tistatic.com/fp/1/007/532/ladies-peach-color-full-sleeves-modern-design-fancy-top-for-casual-wear-713.jpg" alt="top" style="width:80%">
+            <p>Casual top- $15.00</p>
+            </div>
+          </div>
+
+          <h5><a href="cloth3.html">JEANS FOR WOMEN</h5></a>
+          <div class="clearfix">
+            <div class="img-container">
+            <img src="http://cdn.shopify.com/s/files/1/0584/2770/3448/products/jeans-for-kids-gl064952-navyblue-1.jpg?v=1647342639" alt="top" style="width:90%">
+            <p>Casual top- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://cdn.fashiola.in/L96338850/amiri-girls-jeans-distressed-stretch-cotton-denim-jeans.jpg" alt="top" style="width:60%">
+            <p>Casual top- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://cdn00.nnnow.com/web-images/medium/styles/L5UWVITOG2O/1648466669010/1.jpg" alt="top" style="width:70%">
+            <p>Casual top- $15.00</p>
+            </div>
+          </div>
+
+        <h5><a href="cloth4.html">MEN</a></h5>
+        <div class="clearfix">
+            <div class="img-container">
+            <img src="https://i5.walmartimages.com/asr/68efe852-ec47-47d4-9645-2bb5fd2b4ba3.abb37b73174d597b5434e1a8acfcaad4.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff" alt="t-shirt" style="width:85%">
+            <p>Casual t-shirt- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51RYPuiy4QL._AC_UL1000_.jpg" alt="t-shirt" style="width:70%">
+            <p>Casual t-shirt- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://image.made-in-china.com/202f0j00YwDikmKFERrU/Wholesales-High-Quality-Custom-100-Polyester-220GSM-Men-s-Plain-Sublimation-Printing-Sports-Long-Sleeve-T-Shirt.jpg" alt="t-shirt" style="width:70%">
+            <p>Casual t-shirt- $15.00</p>
+            </div>
+          </div>
+
+          <h5><a href="cafe3.html">JEANS FOR MEN</a></h5>
+        <div class="clearfix">
+            <div class="img-container">
+                    <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=542,height=723,quality=75,format=auto,fit=cover,g=top/in-resources/ac24b586-ca24-4d4f-96ee-f96d701a7ed8/Images/ProductImages/Source/levis-mens-501-54-jeans-A46770006_14_Details.jpg" alt="t-shirt" style="width:75%">
+                    <p>Casual t-shirt- $15.00</p>
+                    </div>
+                    <div class="img-container">
+                    <img src="https://i.ebayimg.com/images/g/WdIAAOSwRG1hQQJ3/s-l500.jpg" alt="t-shirt" style="width:90%">
+                    <p>Casual t-shirt- $15.00</p>
+                    </div>
+                    <div class="img-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9iflnrdoHaptBAATrUppiduay8XSLDJwyCarwxtUNrCO_yoM7v2i7894Im-hw9Dk9ByI&usqp=CAU" alt="t-shirt" style="width:80%">
+                    <p>Casual t-shirt- $15.00</p>
+                    </div>
+                  </div>
+
+          <h5><a href="cloth5.html">SUMMER SHOPPING</a></h5>
+          <div class="clearfix">
+            <div class="img-container">
+              <a href="cloth5.html"><img src="https://i.etsystatic.com/15213592/r/il/7524c3/1209605946/il_1080xN.1209605946_wfan.jpg" alt="sale" style="width:150%">
+                </div>
+                <div style="float: right;">
+                  <img src="https://lzd-img-global.slatic.net/g/ff/kf/S44727381d0284949901a5148951f66c5v.jpg_720x720q80.jpg_.webp" alt="summer">
+              </div>
+              </div>
+              <br><br>
+              <h3> ->GET 10% DISCOUNT ON YOUR FIRST ORDER-> </h3>
+              <br><br>
+              <div class="row">
+                <div class="column" style="background-color:black;">
+                  <h7 style="color:white;">Fashionista</h7>
+                  <p style="color:white;">info@Mysite.com</p>
+                  <p style="color:white;">Tel-123-456-7890</p>
+                  <p style="color:white;">In Partnership with Amazon</p>
+                </div>
+               
+                <div class="column" style="background-color:#bbb;">
+                  <h7>Shop</h7>
+                  <p>New</p>
+                  <p>Women</p>
+                  <p>Men</p>
+                </div>
+               
+                <div class="column" style="background-color:#ccc;">
+                  <h7>Our Store</h7>
+                  <p>About Us</p>
+                  <p>Subcribe</p>
+                  <p>FAQ</p>
+                </div>
+               
+                <div class="column" style="background-color:#ddd;">
+                  <h7>Terms & Conditions</h7>
+                  <p>Store policy</p>
+                  <p>Shipping & Returns</p>
+                  <p>Payment methods</p>
+                </div>
+              </div>
+    </body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fashionista 2</title>
+    <style>
+         body{
+          background-color:paleturquoise;
+        }
+     h1 {
+  font-size: 70px;
+  text-align: center;
+}
+h2{
+    font-size: 50px;
+  text-align: center;
+}
+h5{
+    font-size: 35px;
+}
+h3{
+  font-size: 40px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+    </style>
+</head>
+<body>
+    <h1>SHOP NEW</h1>
+      <h5>WOMENS:</h5>
+      <div class="clearfix">
+        <div class="img-container">
+        <img src="https://cdn.shopify.com/s/files/1/1632/6249/products/G14HN_BLBEET_2b8627e9-2f52-410e-a864-6d24741ac7ca.jpg?v=1561460510" alt="top" style="width:65%">
+        <p>Casual top- $15.00</p>
+        </div>
+        <div class="img-container">
+        <img src="https://i5.walmartimages.com/asr/06d2c02d-f226-4d40-ac89-32af053124f5.f6e069e505f71d5979856c7c89006849.jpeg" alt="top" style="width:80%">
+        <p>Casual top- $15.00</p>
+        </div>
+        <div class="img-container">
+        <img src="https://tiimg.tistatic.com/fp/1/007/532/ladies-peach-color-full-sleeves-modern-design-fancy-top-for-casual-wear-713.jpg" alt="top" style="width:80%">
+        <p>Casual top- $15.00</p>
+        </div>
+      </div>
+
+    <h5>MENS:</h5>
+    <div class="clearfix">
+        <div class="img-container">
+        <img src="https://i5.walmartimages.com/asr/68efe852-ec47-47d4-9645-2bb5fd2b4ba3.abb37b73174d597b5434e1a8acfcaad4.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff" alt="t-shirt" style="width:85%">
+        <p>Casual t-shirt- $15.00</p>
+        </div>
+        <div class="img-container">
+        <img src="https://cdn.shopify.com/s/files/1/1383/7761/products/Men_sLongSleeveT-ShirtLeftCrest_64a14743-0508-44fb-8c26-73f4af19922f_800x.png" alt="t-shirt" style="width:70%">
+        <p>Casual t-shirt- $15.00</p>
+        </div>
+        <div class="img-container">
+        <img src="https://image.made-in-china.com/202f0j00YwDikmKFERrU/Wholesales-High-Quality-Custom-100-Polyester-220GSM-Men-s-Plain-Sublimation-Printing-Sports-Long-Sleeve-T-Shirt.jpg" alt="t-shirt" style="width:70%">
+        <p>Casual t-shirt- $15.00</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="column" style="background-color:black;">
+          <h7 style="color:white;">Fashionista</h7>
+          <p style="color:white;">info@Mysite.com</p>
+          <p style="color:white;">Tel-123-456-7890</p>
+          <p style="color:white;">In Partnership with Amazon</p>
+        </div>
+       
+        <div class="column" style="background-color:#bbb;">
+          <h7>Shop</h7>
+          <p>New</p>
+          <p>Women</p>
+          <p>Men</p>
+        </div>
+       
+        <div class="column" style="background-color:#ccc;">
+          <h7>Our Store</h7>
+          <p>About Us</p>
+          <p>Subcribe</p>
+          <p>FAQ</p>
+        </div>
+       
+        <div class="column" style="background-color:#ddd;">
+          <h7>Terms & Conditions</h7>
+          <p>Store policy</p>
+          <p>Shipping & Returns</p>
+          <p>Payment methods</p>
+        </div>
+      </div>
+
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fashionista 3</title>
+    <style>
+        body{
+          background-color:paleturquoise;
+        }
+     h1 {
+  font-size: 70px;
+  text-align: center;
+}
+h5{
+    font-size: 35px;
+}
+h3{
+  font-size: 40px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+    </style>
+</head>
+<body>
+    <h1>WOMEN</h1>
+    <h5>TOPS</h5>
+          <div class="clearfix">
+            <div class="img-container">
+            <img src="https://cdn.shopify.com/s/files/1/1632/6249/products/G14HN_BLBEET_2b8627e9-2f52-410e-a864-6d24741ac7ca.jpg?v=1561460510" alt="top" style="width:65%">
+            <p>Casual top- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://i5.walmartimages.com/asr/06d2c02d-f226-4d40-ac89-32af053124f5.f6e069e505f71d5979856c7c89006849.jpeg" alt="top" style="width:80%">
+            <p>Casual top- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://tiimg.tistatic.com/fp/1/007/532/ladies-peach-color-full-sleeves-modern-design-fancy-top-for-casual-wear-713.jpg" alt="top" style="width:80%">
+            <p>Casual top- $15.00</p>
+            </div>
+          </div>
+
+          <h5>JEANS FOR WOMEN</h5>
+          <div class="clearfix">
+            <div class="img-container">
+            <img src="http://cdn.shopify.com/s/files/1/0584/2770/3448/products/jeans-for-kids-gl064952-navyblue-1.jpg?v=1647342639" alt="top" style="width:90%">
+            <p>Casual top- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://cdn.fashiola.in/L96338850/amiri-girls-jeans-distressed-stretch-cotton-denim-jeans.jpg" alt="top" style="width:60%">
+            <p>Casual top- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://cdn00.nnnow.com/web-images/medium/styles/L5UWVITOG2O/1648466669010/1.jpg" alt="top" style="width:70%">
+            <p>Casual top- $15.00</p>
+            </div>
+          </div>
+
+          <h5>KURTAS</h5>
+          <div class="clearfix">
+            <div class="img-container">
+            <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51PgN7dctsL._UX425_.jpg" alt="top" style="width:70%">
+            <p>Casual top- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/510FLpOtNcL._UL1000_.jpg" alt="top" style="width:70%">
+            <p>Casual top- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71IwP1dXMGL._UL1500_.jpg" alt="top" style="width:40%">
+            <p>Casual top- $15.00</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="column" style="background-color:black;">
+              <h7 style="color:white;">Fashionista</h7>
+              <p style="color:white;">info@Mysite.com</p>
+              <p style="color:white;">Tel-123-456-7890</p>
+              <p style="color:white;">In Partnership with Amazon</p>
+            </div>
+           
+            <div class="column" style="background-color:#bbb;">
+              <h7>Shop</h7>
+              <p>New</p>
+              <p>Women</p>
+              <p>Men</p>
+            </div>
+           
+            <div class="column" style="background-color:#ccc;">
+              <h7>Our Store</h7>
+              <p>About Us</p>
+              <p>Subcribe</p>
+              <p>FAQ</p>
+            </div>
+           
+            <div class="column" style="background-color:#ddd;">
+              <h7>Terms & Conditions</h7>
+              <p>Store policy</p>
+              <p>Shipping & Returns</p>
+              <p>Payment methods</p>
+            </div>
+          </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fashionista 4</title>
+    <style>
+         body{
+          background-color:paleturquoise;
+        }
+     h1 {
+  font-size: 70px;
+  text-align: center;
+}
+h5{
+    font-size: 35px;
+}
+h3{
+  font-size: 40px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+    </style>
+</head>
+<body>
+    <h1>MEN</h1>
+    <h5>T-SHIRT</h5>
+        <div class="clearfix">
+            <div class="img-container">
+            <img src="https://i5.walmartimages.com/asr/68efe852-ec47-47d4-9645-2bb5fd2b4ba3.abb37b73174d597b5434e1a8acfcaad4.jpeg?odnHeight=450&odnWidth=450&odnBg=ffffff" alt="t-shirt" style="width:85%">
+            <p>Casual t-shirt- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51RYPuiy4QL._AC_UL1000_.jpg" alt="t-shirt" style="width:70%">
+            <p>Casual t-shirt- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://image.made-in-china.com/202f0j00YwDikmKFERrU/Wholesales-High-Quality-Custom-100-Polyester-220GSM-Men-s-Plain-Sublimation-Printing-Sports-Long-Sleeve-T-Shirt.jpg" alt="t-shirt" style="width:70%">
+            <p>Casual t-shirt- $15.00</p>
+            </div>
+          </div>
+
+          <h5>SHIRT</h5>
+        <div class="clearfix">
+            <div class="img-container">
+            <img src="https://img.shopstyle-cdn.com/sim/e0/f0/e0f07ea67d0b678c4810f09a0d4535d6_best/makingda-mens-plaid-flannel-shirts-long-sleeve-button-down-top-regular-fit-work-shirt-studded-front-opening-chest-pockets-comfort-warm-camel-xl.jpg" alt="t-shirt" style="width:70%">
+            <p>Casual t-shirt- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://5.imimg.com/data5/HV/RK/MY-39906618/fancy-check-shirt-500x500.png" alt="t-shirt" style="width:85%">
+            <p>Casual t-shirt- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://m.media-amazon.com/images/I/51qXsjkS+aL._AC_SY780_.jpg" alt="t-shirt" style="width:63%">
+            <p>Casual t-shirt- $15.00</p>
+            </div>
+          </div>
+
+          <h5>JEANS FOR MEN</h5>
+        <div class="clearfix">
+            <div class="img-container">
+                    <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=542,height=723,quality=75,format=auto,fit=cover,g=top/in-resources/ac24b586-ca24-4d4f-96ee-f96d701a7ed8/Images/ProductImages/Source/levis-mens-501-54-jeans-A46770006_14_Details.jpg" alt="t-shirt" style="width:75%">
+                    <p>Casual t-shirt- $15.00</p>
+                    </div>
+                    <div class="img-container">
+                    <img src="https://i.ebayimg.com/images/g/WdIAAOSwRG1hQQJ3/s-l500.jpg" alt="t-shirt" style="width:90%">
+                    <p>Casual t-shirt- $15.00</p>
+                    </div>
+                    <div class="img-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9iflnrdoHaptBAATrUppiduay8XSLDJwyCarwxtUNrCO_yoM7v2i7894Im-hw9Dk9ByI&usqp=CAU" alt="t-shirt" style="width:80%">
+                    <p>Casual t-shirt- $15.00</p>
+                    </div>
+                  </div>
+
+          <div class="row">
+            <div class="column" style="background-color:black;">
+              <h7 style="color:white;">Fashionista</h7>
+              <p style="color:white;">info@Mysite.com</p>
+              <p style="color:white;">Tel-123-456-7890</p>
+              <p style="color:white;">In Partnership with Amazon</p>
+            </div>
+           
+            <div class="column" style="background-color:#bbb;">
+              <h7>Shop</h7>
+              <p>New</p>
+              <p>Women</p>
+              <p>Men</p>
+            </div>
+           
+            <div class="column" style="background-color:#ccc;">
+              <h7>Our Store</h7>
+              <p>About Us</p>
+              <p>Subcribe</p>
+              <p>FAQ</p>
+            </div>
+           
+            <div class="column" style="background-color:#ddd;">
+              <h7>Terms & Conditions</h7>
+              <p>Store policy</p>
+              <p>Shipping & Returns</p>
+              <p>Payment methods</p>
+            </div>
+          </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fashionista 5</title>
+    <style>
+         body{
+          background-color:paleturquoise;
+        }
+     h1 {
+  font-size: 70px;
+  text-align: center;
+}
+h5{
+    font-size: 50px;
+}
+h3{
+  font-size: 40px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+    </style>
+</head>
+<body>
+    <h1>SUMMER SALE</h1>
+    <h5>WOMEN</h5>
+          <div class="clearfix">
+            <div class="img-container">
+            <img src="https://lh3.googleusercontent.com/WQMaOxUvaB3Cm1SNrZxrk6UqF_-dsP5WkhtFWE2ZFxvgLOAIHZ638QIk6UFPjcfwrg90zSNS-HG3T1HhnNw-FdaNxBXSsB2prcGtXizMxg=w500-rw" alt="top" style="width:75%">
+            <p>Casual top- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://lh3.googleusercontent.com/srDJhyOhWMmnF9f13Nk7YGmivuL9d27IyMHUDWDayBFRNFUGUWjICFAGh8UCqypJy4k5RcGMVCFtUcoMP_QLY8WMyxUv3tAzTQa7lgh5zg=w500-rw" alt="top" style="width:90%">
+            <p>Casual top- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://i.pinimg.com/originals/9a/75/bb/9a75bb99670732f737d2209d10dd4ea3.jpg" alt="top" style="width:63%">
+            <p>Casual top- $15.00</p>
+            </div>
+          </div>
+
+          <h5>MEN</h5>
+          <div class="clearfix">
+            <div class="img-container">
+            <img src="https://i.pinimg.com/736x/35/87/eb/3587ebee0ea49fd6aedbc21201401fb6.jpg" alt="top" style="width:90%">
+            <p>Casual top- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://images.bewakoof.com/uploads/grid/app/Best-Casual-Summer-Outfit-for-Men-bewakoof-blog-15-1619415038.jpg" alt="top" style="width:88%">
+            <p>Casual top- $15.00</p>
+            </div>
+            <div class="img-container">
+            <img src="https://i.pinimg.com/550x/28/32/40/2832404e81efa178168c3d760f709b9c.jpg" alt="top" style="width:75%">
+            <p>Casual top- $15.00</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="column" style="background-color:black;">
+              <h7 style="color:white;">Fashionista</h7>
+              <p style="color:white;">info@Mysite.com</p>
+              <p style="color:white;">Tel-123-456-7890</p>
+              <p style="color:white;">In Partnership with Amazon</p>
+            </div>
+           
+            <div class="column" style="background-color:#bbb;">
+              <h7>Shop</h7>
+              <p>New</p>
+              <p>Women</p>
+              <p>Men</p>
+            </div>
+           
+            <div class="column" style="background-color:#ccc;">
+              <h7>Our Store</h7>
+              <p>About Us</p>
+              <p>Subscribe</p>
+              <p>FAQ</p>
+            </div>
+           
+            <div class="column" style="background-color:#ddd;">
+              <h7>Terms & Conditions</h7>
+              <p>Store policy</p>
+              <p>Shipping & Returns</p>
+              <p>Payment methods</p>
+            </div>
+          </div>
+</body>
+</html>
